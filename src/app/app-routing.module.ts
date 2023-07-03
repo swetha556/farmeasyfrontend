@@ -9,7 +9,9 @@ import { OrderdetailsComponent } from './orderdetails/orderdetails.component';
 import { OrderlistComponent } from './orderlist/orderlist.component';
 import { CreatepaymentComponent } from './createpayment/createpayment.component';
 import { PaymentlistComponent } from './paymentlist/paymentlist.component';
-
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { SuccessComponent } from './success/success.component';
 
 const routes: Routes = [
   {path:'products',component:ProductlistComponent},
@@ -23,7 +25,11 @@ const routes: Routes = [
   {path:'',redirectTo:'orders',pathMatch:'full'},
   {path:'payment',component:PaymentlistComponent},
   {path:'createpayment',component:CreatepaymentComponent},
-  {path:'',redirectTo:'payment',pathMatch:'full'}
+  {path:'',redirectTo:'payment',pathMatch:'full'},
+  {path:'login',component:LoginComponent},
+  {path:'register',component:RegisterComponent},
+  {path:'createpayment',component:CreatepaymentComponent},
+  {path:'success',component:SuccessComponent},
 ];
 
 @NgModule({

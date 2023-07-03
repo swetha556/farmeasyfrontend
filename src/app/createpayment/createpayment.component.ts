@@ -36,6 +36,9 @@ export class CreatepaymentComponent implements OnInit{
     console.log(this.payment);
     this.savePayment();
   }
-} {
 
-}
+  success=function(){
+    location.pathname=('/success')
+  }
+} 
+

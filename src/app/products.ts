@@ -1,5 +1,5 @@
 export class Products{
-    productid:number=10;
+    productid:number=16;
     productname:string='';
     pdescription:string='';
     specification:string='';

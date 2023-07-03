@@ -34,6 +34,10 @@ export class CreateordersComponent implements OnInit{
     console.log(this.orders);
     this.saveOrders();
   }
-} {
 
-}
+  Paymentopen=function(){
+    location.pathname=('/createpayment');
+  }
+} 
+
+
