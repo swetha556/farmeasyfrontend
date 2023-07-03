@@ -38,4 +38,8 @@ export class UpdateproductsComponent implements OnInit{
   goToProductlist(){
     this.router.navigate(['/products']);
   }
+
+  showupdate=function(){
+    location.pathname=('/products')
+  }
 }

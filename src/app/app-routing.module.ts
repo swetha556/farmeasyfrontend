@@ -15,6 +15,8 @@ import { SuccessComponent } from './success/success.component';
 import { SellerComponent } from './seller/seller.component';
 import { BuyerComponent } from './buyer/buyer.component';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+import { KnowledgeComponent } from './knowledge/knowledge.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'/home',pathMatch:'full'},
@@ -22,6 +24,7 @@ const routes: Routes = [
   {path:'createproducts',component:CreateproductsComponent},
   {path:'',redirectTo:'products',pathMatch:'full'},
   {path:'updateproducts/:productid',component:UpdateproductsComponent},
+  {path:'',redirectTo:'products',pathMatch:'full'},
   {path:'productdetails/:productid',component:ProductdetailsComponent},
   {path:'orders',component:OrderlistComponent},
   {path:'orderdetails/:productid',component:OrderdetailsComponent},
@@ -36,7 +39,10 @@ const routes: Routes = [
   {path:'success',component:SuccessComponent},
   {path:'seller',component:SellerComponent},
   {path:'buyer',component:BuyerComponent},
-  {path:'home',component:HomeComponent}
+  {path:'home',component:HomeComponent},
+  {path:'buyer',redirectTo:'/login',pathMatch:'full'},
+  {path:'contact',component:ContactComponent},
+  {path:'knowledge',component:KnowledgeComponent}
 ];
 
 @NgModule({

@@ -16,7 +16,7 @@
 
     right: 40%;
 
-    color: blue;
+    color: green;
 
 }
 
@@ -213,4 +213,12 @@ feature .fe-box img {
 
     font-weight: 700;
 
+}
+
+header{
+    background-color:rgb(193, 236, 159);
+}
+
+button{
+    background-color:#a4d7e9;
 }

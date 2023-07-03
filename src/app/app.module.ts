@@ -20,6 +20,7 @@ import { PaymentlistComponent } from './paymentlist/paymentlist.component';
 import { SuccessComponent } from './success/success.component';
 import { SellerComponent } from './seller/seller.component';
 import { BuyerComponent } from './buyer/buyer.component';
+import { KnowledgeComponent } from './knowledge/knowledge.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { BuyerComponent } from './buyer/buyer.component';
     SuccessComponent,
     SellerComponent,
     BuyerComponent,
+    KnowledgeComponent,
   ],
   imports: [
     BrowserModule,

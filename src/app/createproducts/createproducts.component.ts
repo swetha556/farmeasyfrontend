@@ -34,4 +34,8 @@ export class CreateproductsComponent implements OnInit{
     console.log(this.products);
     this.saveProducts();
   }
+
+  showproduct=function(){
+    location.pathname=('/products')
+  }
 }
