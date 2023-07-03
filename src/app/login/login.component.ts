@@ -147,7 +147,7 @@ export class LoginComponent implements OnInit{
 
 
 
-      this.router.navigate(['/plan-list'])
+      this.router.navigate(['/seller'])
 
 
 
@@ -162,7 +162,7 @@ export class LoginComponent implements OnInit{
 
 
 
-      this.router.navigate(['/buyer-page'])
+      this.router.navigate(['/buyer'])
 
 
 

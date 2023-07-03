@@ -18,6 +18,8 @@ import { OrderlistComponent } from './orderlist/orderlist.component';
 import { CreatepaymentComponent } from './createpayment/createpayment.component';
 import { PaymentlistComponent } from './paymentlist/paymentlist.component';
 import { SuccessComponent } from './success/success.component';
+import { SellerComponent } from './seller/seller.component';
+import { BuyerComponent } from './buyer/buyer.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { SuccessComponent } from './success/success.component';
     CreatepaymentComponent,
     PaymentlistComponent,
     SuccessComponent,
+    SellerComponent,
+    BuyerComponent,
   ],
   imports: [
     BrowserModule,

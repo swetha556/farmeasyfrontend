@@ -12,8 +12,12 @@ import { PaymentlistComponent } from './paymentlist/paymentlist.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { SuccessComponent } from './success/success.component';
+import { SellerComponent } from './seller/seller.component';
+import { BuyerComponent } from './buyer/buyer.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
+  {path:'',redirectTo:'/home',pathMatch:'full'},
   {path:'products',component:ProductlistComponent},
   {path:'createproducts',component:CreateproductsComponent},
   {path:'',redirectTo:'products',pathMatch:'full'},
@@ -30,6 +34,9 @@ const routes: Routes = [
   {path:'register',component:RegisterComponent},
   {path:'createpayment',component:CreatepaymentComponent},
   {path:'success',component:SuccessComponent},
+  {path:'seller',component:SellerComponent},
+  {path:'buyer',component:BuyerComponent},
+  {path:'home',component:HomeComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,552 @@
+<!-- 
+        <a routerLink="/createorders" routerLinkActive="active" class="nav-link">Add Order</a>
+     
+        <a routerLink="/createpayment" routerLinkActive="active" class="nav-link">Add Payment</a>
+      
+    
+
+    
+    <div class="container">
+        <router-outlet></router-outlet>
+    </div> -->
+  
+
+    <header>
+
+        <router-outlet></router-outlet>
+    
+       
+    
+         
+    
+            <div class="navbar navbar-dark bg-primary shadow-sm">
+    
+                <div class="navbar-brand align-items-center d-flex">
+    
+                    <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
+    
+                       
+    
+                    </i>
+    
+                    <strong style="font-size: 30px;">FarmEasy</strong>
+    
+                    <div class="form-group">
+    
+                        <input type="text" class="form-control" placeholders="search products">
+    
+                    </div>
+    
+                    <span class="fas fa-search search-icon"></span>
+    
+                </div>
+    
+                <button class="btn btn-primary">
+    
+                    <i style="font-size: 20px;" class="fas fa-cart-plus"></i>
+    
+                    <div style="font-size: 10px;" class="badge bg-danger">5</div>
+    
+                </button>
+    
+               
+    
+            </div>
+    
+            <section id="feature" class="section-p1" >
+    
+               
+    
+               
+    
+            </section>
+    
+           
+    
+            <section id="product1" class="section-p1">
+    
+           
+    
+                   
+    
+                <div class="fe-box">
+    
+                    <img src="../assets/images/machines.jpg" alt="">
+    
+                    <h6></h6>
+    
+                </div>
+    
+               
+    
+       
+    
+                <h2>Machinaries</h2>
+    
+                <p>Machinaries For Agriculture</p>
+    
+                <div class="pro-container">
+    
+                <div class="pro">
+    
+                   
+    
+                    <div class="card image-container">
+    
+                       
+    
+       
+    
+                   
+    
+                    <img src="../assets/images/Cultivator1.jpg" alt="">
+    
+                    </div>
+    
+                    <div class="des">
+    
+                        <span>Sonalika</span>
+    
+                        <h5>Cultivator</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹8000</h4>
+    
+                    </div>
+    
+                    <div class=""mt-3> 
+    
+                        <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()"  routerLink="/product"> Buy Now</button>
+    
+                    </div>
+    
+                </div>
+    
+       
+    
+               
+    
+                <div class="pro">
+    
+                    <img src="../assets/images/disc horrow2.jpg" alt="">
+    
+                    <div class="des">
+    
+                        <span>shakthi</span>
+    
+                        <h5>DiscHorrow</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹7000</h4>
+    
+                     
+    
+                        <div class=""mt-3>
+    
+                            <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()" routerLink="/product"> Buy Now</button>
+        
+                        </div>
+        </div>
+    </div>
+    
+       
+    
+                <div class="pro">
+    
+                    <img src="../assets/images/tractor2.jpg" alt="">
+    
+                    <div class="des">
+    
+                        <span>Mahindra</span>
+    
+                        <h5>Tractor</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹780000</h4>
+    
+                    </div>
+    
+                    <div class=""mt-3>
+    
+                        <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()" routerLink="/product"> Buy Now</button>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="pro">
+    
+                    <img src="../assets/images/Rotary tiller1.jpg" alt="">
+    
+                    <div class="des">
+    
+                        <span>Mahindra</span>
+    
+                        <h5>Rotary Tiller</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹28000</h4>
+    
+                    </div>
+    
+                    <div class=""mt-3>
+    
+                        <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()" routerLink="/product"> Buy Now</button>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="pro">
+    
+                    <img src="../assets/images/Ridger1.jpg" alt="">
+    
+                    <div class="des">
+    
+                        <span>Mahindra</span>
+    
+                        <h5>Ridger</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹19000</h4>
+    
+                    </div>
+    
+                    <div class=""mt-3>
+    
+                        <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()" routerLink="/product"> Buy Now</button>
+    
+                       
+    
+                    </div>
+    
+                </div>
+    
+                </div>
+    
+               
+    
+            </section>
+    
+       
+    
+       
+    
+           
+    
+           
+    
+        </header>
+    
+       
+    
+       
+    
+        <header>
+    
+         
+    
+           
+    
+            <section id="product1" class="section-p1">
+    
+               
+    
+                <div class="fe-box" >
+    
+                    <img src="../assets/images/crops1.jpg" alt="" >
+    
+                    <h6></h6>
+    
+                </div >
+    
+                <h2>Crops</h2>
+    
+                <p>Crops For Agriculture</p>
+    
+                <div class="pro-container">
+    
+                <div class="pro">
+    
+                   
+    
+                    <div class="card image-container">
+    
+                       
+    
+       
+    
+                   
+    
+                    <img src="../assets/images/corn1.jpg" alt="">
+    
+                    </div>
+    
+                    <div class="des">
+    
+                        <span>Maharaj</span>
+    
+                        <h5>Corns</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹80 per kg</h4>
+    
+                    </div>
+    
+                    <div class=""mt-3>
+    
+                        <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()" routerLink="/product"> Buy Now</button>
+    
+                    </div>
+    
+                   
+    
+                </div>
+    
+                <div class="pro">
+    
+                    <img src="../assets/images/Rice1.jpg" alt="">
+    
+                    <div class="des">
+    
+                        <span>shakthi</span>
+    
+                        <h5>Rice</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹70 per kg</h4>
+    
+                    </div>
+    
+                    <div class=""mt-3>
+    
+                        <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()"  routerLink="/product"> Buy Now</button>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="pro">
+    
+                    <img src="../assets/images/nuts1.jpg" alt="">
+    
+                    <div class="des">
+    
+                        <span>shakthi</span>
+    
+                        <h5>Ground nuts</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹78 per kg</h4>
+    
+                    </div>
+    
+                    <div class=""mt-3>
+    
+                        <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()" routerLink="/product"> Buy Now</button>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="pro">
+    
+                    <img src="../assets/images/soya1.jpg" alt="">
+    
+                    <div class="des">
+    
+                        <span>Mahiraj</span>
+    
+                        <h5>Soya Beans</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹40 per kg</h4>
+    
+                    </div>
+    
+                    <div class=""mt-3>
+    
+                        <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()"  routerLink="/product"> Buy Now</button>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="pro">
+    
+                    <img src="../assets/images/sugar1.jpg" alt="">
+    
+                    <div class="des">
+    
+                        <span>Ambika</span>
+    
+                        <h5>SugarCane</h5>
+    
+                        <div class="star">
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                            <i class="fas fa-star"></i>
+    
+                        </div>
+    
+                        <h4>₹78 per one</h4>
+    
+                    </div>
+    
+                    <div class=""mt-3>
+    
+                        <button mat-raised-button color="warn" style="width: 100px" (click)="productopen()" routerLink="/product"> Buy Now</button>
+    
+                       
+    
+                    </div>
+    
+                </div>
+    
+                </div>
+    
+               
+    
+            </section>
+    
+       
+    
+           
+    
+           
+    
+        </header>
+    
+        <section id="feature">
+    
+            <div class="section-p1">
+    
+                <router-outlet></router-outlet>
+    
+            </div>
+    
+        </section>
